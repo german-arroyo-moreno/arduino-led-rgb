@@ -29,14 +29,14 @@ The web app automatically detects available serial devices, allowing you to conn
 
 ### 🛠️ Requirements
 
-#### Hardware**
+#### Hardware
 
 
 **An Arduino board (e.g., Arduino Uno, Nano) and a USB cable to connect it to your computer**
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ptrobotics.com%2F23970-thickbox_default%2Farduino-uno-r3-compativel-com-cabo-usb-.jpg&f=1&nofb=1&ipt=2a23652ce30b8c02199eec97a4e40847268668dfa4886fe0ed0374f00498cd41" alt="Arduino board" width="50%">
 
-** 3 x 220Ω resistors**
+**3 x 220Ω resistors**
 
 <img src="https://electronicsreference.com/wp-content/uploads/2022/02/220-Resistor-Color-Code.gif" alt="220 Ohm Resistor" width="50%">
 
@@ -81,7 +81,7 @@ Assemble the circuit as shown below. Connect the three anode (longer) pins of th
 
 #### **Step 3: Upload the Arduino Sketch**
 
-1.  Open the `led_controller/led_controller.ino` file in the Arduino IDE.
+1.  Open the `rgb-led.ino` file in the Arduino IDE.
 2.  Connect your Arduino board to your computer via USB.
 3.  In the IDE, select your board (e.g., *Tools \> Board \> Arduino Uno*) and the correct port (*Tools \> Port*).
 4.  Click the "Upload" button.
@@ -101,7 +101,11 @@ source .venv/bin/activate
 # .venv\Scripts\activate
 
 # Install the required packages
+pip install -r requeriments.txt
+
+# Or alternatively
 pip install streamlit pyserial
+
 ```
 
 ##### **A Note for Linux Users - Serial Port Permissions**

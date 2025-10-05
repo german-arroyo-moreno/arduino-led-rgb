@@ -12,8 +12,7 @@ The web app automatically detects available serial devices, allowing you to conn
 
 ### \#\# 📸 App Preview
 
-*(Here you can add a screenshot or GIF of the application in action)*
-`![App Screenshot](./img/app-screenshot.png)`
+![App Screenshot](./img/app-screenshot.png)
 
 -----
 
@@ -55,8 +54,8 @@ Follow these steps to get the project up and running.
 Open your terminal and clone this project.
 
 ```bash
-git clone https://github.com/your-username/your-project-name.git
-cd your-project-name
+git clone https://github.com/german-arroyo-moreno/arduino-led-rgb.git
+cd arduino-led-rgb
 ```
 
 #### **Step 2: Hardware Setup**

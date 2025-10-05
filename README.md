@@ -37,6 +37,10 @@ The web app automatically detects available serial devices, allowing you to conn
   * A breadboard and jumper wires
   * A USB cable to connect the Arduino to your computer
 
+![Arduino](https://freesvg.org/img/Arduino-Fixed.png)
+
+![220Ω Resistor](https://electronicsreference.com/wp-content/uploads/2022/02/220-Resistor-Color-Code.gif)
+
 #### Software
 
   * [Python 3.8+](https://www.python.org/downloads/)

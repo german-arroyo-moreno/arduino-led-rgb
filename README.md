@@ -10,13 +10,13 @@ The web app automatically detects available serial devices, allowing you to conn
 
 -----
 
-### \#\# 📸 App Preview
+### 📸 App Preview
 
 ![App Screenshot](./img/app-screenshot.png)
 
 -----
 
-### \#\# ✨ Features
+### ✨ Features
 
   * **Interactive Web Interface:** Modern UI built with Streamlit that can be accessed from your browser.
   * **Auto-Device Discovery:** Automatically scans and lists available serial ports (e.g., `/dev/ttyACM0` on Linux).
@@ -27,17 +27,17 @@ The web app automatically detects available serial devices, allowing you to conn
 
 -----
 
-### \#\# 🛠️ Requirements
+### 🛠️ Requirements
 
 #### Hardware
 
 
 * An Arduino board (e.g., Arduino Uno, Nano)
-  ![Arduino](https://freesvg.org/img/Arduino-Fixed.png)
+  <img src="https://freesvg.org/img/Arduino-Fixed.png" alt="Arduino board" width="50%">
 * 3 x 220Ω resistors
-  ![220Ω Resistor](https://electronicsreference.com/wp-content/uploads/2022/02/220-Resistor-Color-Code.gif)
+  <img src="https://electronicsreference.com/wp-content/uploads/2022/02/220-Resistor-Color-Code.gif" alt="220 Ohm Resistor" width="50%">
 * A common-cathode RGB LED
-  ![A common-cathode RGB LED](https://i0.wp.com/www.exploringarduino.com/wp-content/uploads/2013/06/rgb-led.jpg?w=600&ssl=1)
+  <img src="https://i0.wp.com/www.exploringarduino.com/wp-content/uploads/2013/06/rgb-led.jpg?w=600&ssl=1" alt="Common-cathode RGB LED" width="50%">
 * A breadboard and jumper wires
 * A USB cable to connect the Arduino to your computer
   
@@ -49,7 +49,7 @@ The web app automatically detects available serial devices, allowing you to conn
 
 -----
 
-### \#\# 🚀 Setup and Installation
+### 🚀 Setup and Installation
 
 Follow these steps to get the project up and running.
 
@@ -134,7 +134,7 @@ Your default web browser will automatically open with the controller interface.
 
 -----
 
-### \#\# 🕹️ How to Use
+### 🕹️ How to Use
 
 1.  **Select Your Device:** In the sidebar on the left, choose your Arduino from the dropdown menu.
 2.  **Connect:** Click the "Connect" button. The status will change to "Connected" upon success.
@@ -146,7 +146,7 @@ Your default web browser will automatically open with the controller interface.
 
 -----
 
-### \#\# 🔧 Troubleshooting
+### 🔧 Troubleshooting
 
   * **No devices found:** Ensure your Arduino is properly connected to your computer. If you're on Linux, your user might not have permission to access the serial port. Run `sudo usermod -a -G dialout $USER` and then log out and log back in.
   * **LED colors are inverted:** This usually means you have a **common-anode** RGB LED instead of a common-cathode one. To fix this, open the Arduino `.ino` sketch and modify the `setColor` function to invert the values:
@@ -161,6 +161,6 @@ Your default web browser will automatically open with the controller interface.
 
 -----
 
-### \#\# 📜 License
+### 📜 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.

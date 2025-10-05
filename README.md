@@ -31,16 +31,16 @@ The web app automatically detects available serial devices, allowing you to conn
 
 #### Hardware
 
-  * An Arduino board (e.g., Arduino Uno, Nano)
-  * A common-cathode RGB LED
-  * 3 x 220Ω resistors
-  * A breadboard and jumper wires
-  * A USB cable to connect the Arduino to your computer
 
-![Arduino](https://freesvg.org/img/Arduino-Fixed.png)
-
-![220Ω Resistor](https://electronicsreference.com/wp-content/uploads/2022/02/220-Resistor-Color-Code.gif)
-
+* An Arduino board (e.g., Arduino Uno, Nano)
+  ![Arduino](https://freesvg.org/img/Arduino-Fixed.png)
+* 3 x 220Ω resistors
+  ![220Ω Resistor](https://electronicsreference.com/wp-content/uploads/2022/02/220-Resistor-Color-Code.gif)
+* A common-cathode RGB LED
+  ![A common-cathode RGB LED](https://i0.wp.com/www.exploringarduino.com/wp-content/uploads/2013/06/rgb-led.jpg?w=600&ssl=1)
+* A breadboard and jumper wires
+* A USB cable to connect the Arduino to your computer
+  
 #### Software
 
   * [Python 3.8+](https://www.python.org/downloads/)

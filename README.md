@@ -29,17 +29,25 @@ The web app automatically detects available serial devices, allowing you to conn
 
 ### 🛠️ Requirements
 
-#### Hardware
+#### Hardware**
 
 
-* An Arduino board (e.g., Arduino Uno, Nano)
-  <img src="https://freesvg.org/img/Arduino-Fixed.png" alt="Arduino board" width="50%">
-* 3 x 220Ω resistors
-  <img src="https://electronicsreference.com/wp-content/uploads/2022/02/220-Resistor-Color-Code.gif" alt="220 Ohm Resistor" width="50%">
-* A common-cathode RGB LED
-  <img src="https://i0.wp.com/www.exploringarduino.com/wp-content/uploads/2013/06/rgb-led.jpg?w=600&ssl=1" alt="Common-cathode RGB LED" width="50%">
-* A breadboard and jumper wires
-* A USB cable to connect the Arduino to your computer
+**An Arduino board (e.g., Arduino Uno, Nano) and a USB cable to connect it to your computer**
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ptrobotics.com%2F23970-thickbox_default%2Farduino-uno-r3-compativel-com-cabo-usb-.jpg&f=1&nofb=1&ipt=2a23652ce30b8c02199eec97a4e40847268668dfa4886fe0ed0374f00498cd41" alt="Arduino board" width="50%">
+
+** 3 x 220Ω resistors**
+
+<img src="https://electronicsreference.com/wp-content/uploads/2022/02/220-Resistor-Color-Code.gif" alt="220 Ohm Resistor" width="50%">
+
+**A common-cathode RGB LED**
+
+<img src="https://i0.wp.com/www.exploringarduino.com/wp-content/uploads/2013/06/rgb-led.jpg?w=600&ssl=1" alt="Common-cathode RGB LED" width="50%">
+
+**A breadboard and jumper wires**
+
+<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fnerdshed.com.ng%2Fwp-content%2Fuploads%2F2017%2F10%2Fbreadboard-and-jumper-wires.png&f=1&nofb=1&ipt=75c9e272a1ade706327a33674718dc1320d35187f9081b9dcde1f3dc8845b78a" alt="A breadboard and jumper wires" width="50%">
+
   
 #### Software
 
